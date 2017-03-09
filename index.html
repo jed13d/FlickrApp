@@ -1,0 +1,62 @@
+<html>
+   <head>
+   <title>Flickr API Project</title>
+
+   <!-- Link to ajax/jquery stored on google server -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+   <!-- My javascript file -->
+   <script type="text/javascript" src="flickr_proj.js"></script>
+
+   <!-- My CSS file -->
+   <link rel="stylesheet" type="text/css" href="flickr_app.css" />
+   </head>
+   <body>
+
+      <!-- Outer table which structurally contains app -->
+      <table id="main_table">
+         <tr class="search_Bar"> <!-- Contains search field and button -->
+            <td>
+               <div id="searchBar">
+                  <form id="flickr_form" action="">
+                  Search Flickr's images:<br />
+                     <input type="text" id="flickrSrchTxt" maxlength="50" value="" autofocus>&nbsp;&nbsp;<input type="submit" value="Search">
+                  </form>
+               </div>
+            </td>
+         </tr>
+         <tr class="gallery"> <!-- Initialized image objects -->
+            <td>
+               <div id="photoAlbum">
+                  <img id="img0" class="fimage" src="" alt="" /><br />
+                  <img id="img1" class="fimage" src="" alt="" /><br />
+                  <img id="img2" class="fimage" src="" alt="" /><br />
+                  <img id="img3" class="fimage" src="" alt="" /><br />
+                  <img id="img4" class="fimage" src="" alt="" /><br />
+                  <img id="img5" class="fimage" src="" alt="" /><br />
+                  <img id="img6" class="fimage" src="" alt="" /><br />
+                  <img id="img7" class="fimage" src="" alt="" /><br />
+                  <img id="img8" class="fimage" src="" alt="" /><br />
+                  <img id="img9" class="fimage" src="" alt="" /><br />
+                  <img id="img10" class="fimage" src="" alt="" /><br />
+                  <img id="img11" class="fimage" src="" alt="" /><br />
+                  <img id="img12" class="fimage" src="" alt="" /><br />
+                  <img id="img13" class="fimage" src="" alt="" /><br />
+                  <img id="img14" class="fimage" src="" alt="" /><br />
+                  <img id="img15" class="fimage" src="" alt="" /><br />
+                  <img id="img16" class="fimage" src="" alt="" /><br />
+                  <img id="img17" class="fimage" src="" alt="" /><br />
+                  <img id="img18" class="fimage" src="" alt="" /><br />
+                  <img id="img19" class="fimage" src="" alt="" /><br />
+                  <img id="img20" class="fimage" src="" alt="" /><br />
+                  <img id="img21" class="fimage" src="" alt="" /><br />
+                  <img id="img22" class="fimage" src="" alt="" /><br />
+                  <img id="img23" class="fimage" src="" alt="" /><br />
+                  <img id="img24" class="fimage" src="" alt="" /><br />
+               </div>
+            </td>
+         </tr>
+      </table>
+
+   </body>
+</html>

@@ -1,7 +1,7 @@
 $(document).ready(function() {
    var options = {                                          // options used to send to flickr
       "method": "flickr.photos.search",
-      "api_key": "512b71a30c983c3eb886d7eb189933b6",
+      "api_key": "",
       "text": "",
       "safe_search": "1",
       "per_page": "25",
